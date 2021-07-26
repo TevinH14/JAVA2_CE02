@@ -1,0 +1,25 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/date_preference">
+
+        <ListPreference
+            android:dialogTitle="@string/formatTitle"
+            android:entries="@array/dateFormatArray"
+            android:entryValues="@array/dateFormatValuesArray"
+            android:key="@string/dateFormatKey"
+            android:summary="@string/date_summary"
+            android:title="@string/formatTitle"
+            android:defaultValue="MM/dd/yyyy"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/dataManagement">
+        <PreferenceScreen
+            android:key="@string/deleteEmployeePreference"
+            android:summary="@string/delete_summary"
+            android:title="@string/delete_all">
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">HamiltonTevin_CE02</string>
+    <!---->
+    <string name="display_empty">There is currently no employee please add an employee</string>
+    <string name="firstname">FirstName</string>
+    <string name="lastname">LastName</string>
+    <string name="select_date">Select Date</string>
+    <string name="status">Status</string>
+    <string name="id_number">Id Number</string>
+    <string name="hire_date">Hire Date</string>
+    <string name="select_a_date">Select a Date</string>
+    <string name="add">Add</string>
+    <string name="setting">Setting</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="sortByArray">
+        <item>Sort by Status</item>
+        <item>Sort by Number</item>
+    </string-array>
+
+    <string-array name="orderByArray">
+        <item>ascending</item>
+        <item>Descending</item>
+    </string-array>
+
+    <!-- keys -->
+    <string name="dateFormatKey">list_preference</string>
+    <string name="deleteEmployeePreference">delete_employee_preference</string>
+
+    <!-- preference date format -->
+    <string name="formatTitle">Date Format</string>
+    <string name="date_preference">Display Preferences</string>
+    <string name="date_summary">Changes the display format for an employee hire date</string>
+    <string-array name="dateFormatArray">
+        <item>03/01/2020</item>
+        <item>March 1, 2020</item>
+        <item>03.01.2020</item>
+    </string-array>
+    <string-array name="dateFormatValuesArray">
+        <item>MM/dd/yyyy</item>
+        <item>MMM d, yyyy</item>
+        <item>MM.dd.yyyy</item>
+    </string-array>
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+    <string name="delete_all">Delete All</string>
+    <string name="delete_message">Are you sure you want to delete all stored employees on from the devices</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="dataManagement">Data Management</string>
+    <string name="delete_summary">Remove all saved employees from devices</string>
+    <string name="delete_employee">Delete Employee</string>
+    <string name="delete_Employee_message">Are you sure you want to delete employee</string>
+
+    <string name="edit">edit</string>
+
+
+</resources>
